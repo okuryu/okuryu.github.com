@@ -1,0 +1,74 @@
+<div class="highlight"><pre><span class="cm">/**</span>
+<span class="cm"> * YUI 3 Facebook Like Button Module</span>
+<span class="cm"> * @module gallery-facebook-like-button</span>
+<span class="cm"> */</span>
+<span class="nx">Y</span><span class="p">.</span><span class="nx">namespace</span><span class="p">(</span><span class="s1">&#39;Facebook.LikeButton&#39;</span><span class="p">);</span>
+<span class="cm">/**</span>
+<span class="cm"> * @class Facebook.LikeButton</span>
+<span class="cm"> */</span>
+<span class="nx">Y</span><span class="p">.</span><span class="nx">Facebook</span><span class="p">.</span><span class="nx">LikeButton</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">_srcBase</span> <span class="o">=</span> <span class="s1">&#39;http://www.facebook.com/plugins/like.php&#39;</span><span class="p">,</span>
+        <span class="nx">_frame</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none;overflow:hidden;height:80px&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;&#39;</span><span class="p">,</span>
+        <span class="nx">_defaultConfig</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="nx">href</span><span class="o">:</span> <span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="p">,</span>
+            <span class="nx">layout</span><span class="o">:</span> <span class="s1">&#39;standard&#39;</span><span class="p">,</span>
+            <span class="nx">showfaces</span><span class="o">:</span> <span class="s1">&#39;true&#39;</span><span class="p">,</span>
+            <span class="nx">width</span><span class="o">:</span> <span class="s1">&#39;450&#39;</span><span class="p">,</span>
+            <span class="nx">action</span><span class="o">:</span> <span class="s1">&#39;like&#39;</span><span class="p">,</span>
+            <span class="nx">font</span><span class="o">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span>
+            <span class="nx">colorscheme</span><span class="o">:</span> <span class="s1">&#39;light&#39;</span>
+        <span class="p">};</span>
+    <span class="kd">function</span> <span class="nx">_applyConfig</span><span class="p">(</span><span class="nx">config</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">returnConfig</span> <span class="o">=</span> <span class="p">{};</span>
+        <span class="nx">Y</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">_defaultConfig</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">value</span><span class="p">,</span> <span class="nx">key</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">Y</span><span class="p">.</span><span class="nb">Object</span><span class="p">.</span><span class="nx">hasKey</span><span class="p">(</span><span class="nx">config</span><span class="p">,</span> <span class="nx">key</span><span class="p">))</span> <span class="p">{</span>
+                <span class="nx">returnConfig</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">config</span><span class="p">[</span><span class="nx">key</span><span class="p">];</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="nx">returnConfig</span><span class="p">[</span><span class="nx">key</span><span class="p">]</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+            <span class="p">}</span>
+        <span class="p">});</span>
+        <span class="k">return</span> <span class="nx">returnConfig</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kd">function</span> <span class="nx">_createFrame</span><span class="p">(</span><span class="nx">config</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">frame</span> <span class="o">=</span> <span class="nx">Y</span><span class="p">.</span><span class="nx">Node</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">_frame</span><span class="p">);</span>
+        <span class="nx">frame</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s1">&#39;src&#39;</span><span class="p">,</span> <span class="nx">_srcBase</span> <span class="o">+</span> <span class="s1">&#39;?&#39;</span> <span class="o">+</span> <span class="nx">Y</span><span class="p">.</span><span class="nx">QueryString</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">config</span><span class="p">))</span>
+             <span class="p">.</span><span class="nx">setStyle</span><span class="p">(</span><span class="s1">&#39;width&#39;</span><span class="p">,</span> <span class="nx">config</span><span class="p">.</span><span class="nx">width</span> <span class="o">+</span> <span class="s1">&#39;px&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">frame</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="cm">/**</span>
+<span class="cm">         * @static</span>
+<span class="cm">         * @for Facebook.LikeButton</span>
+<span class="cm">         * @method add</span>
+<span class="cm">         * @param {string | HTMLElement} node a node or Selector</span>
+<span class="cm">         * @param {object} acceptConfig the attributes of like button:</span>
+<span class="cm">         *  &lt;ul&gt;</span>
+<span class="cm">         *   &lt;li&gt;href: the URL to like. defaults to the current page.&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;layout: there are three options: &#39;standard&#39;, &#39;button_count&#39;, &#39;box_count&#39;.&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;show_faces: specifies whether to display profile photos below the button (standard layout only).&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;width: the width of the Like button.&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;action: the verb to display on the button. Options: &#39;like&#39;, &#39;recommend&#39;.&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;font: the font to display in the button. Options: &#39;arial&#39;, &#39;lucida grande&#39;, &#39;segoe ui&#39;, &#39;tahoma&#39;, &#39;trebuchet ms&#39;, &#39;verdana&#39;.&lt;/li&gt;</span>
+<span class="cm">         *   &lt;li&gt;colorscheme: the color scheme for the like button. Options: &#39;light&#39;, &#39;dark&#39;.&lt;/li&gt;</span>
+<span class="cm">         *  &lt;/ul&gt;</span>
+<span class="cm">         * @return {boolean} true if success, false if failed.</span>
+<span class="cm">         */</span>
+        <span class="nx">add</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">node</span><span class="p">,</span> <span class="nx">acceptConfig</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">node</span> <span class="o">=</span> <span class="nx">Y</span><span class="p">.</span><span class="nx">one</span><span class="p">(</span><span class="nx">node</span><span class="p">),</span>
+                <span class="nx">config</span> <span class="o">=</span> <span class="p">{},</span>
+                <span class="nx">frame</span><span class="p">;</span>
+            <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">node</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="k">if</span> <span class="p">(</span><span class="nx">Y</span><span class="p">.</span><span class="nx">Lang</span><span class="p">.</span><span class="nx">isObject</span><span class="p">(</span><span class="nx">acceptConfig</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">Y</span><span class="p">.</span><span class="nb">Object</span><span class="p">.</span><span class="nx">isEmpty</span><span class="p">(</span><span class="nx">acceptConfig</span><span class="p">))</span> <span class="p">{</span>
+                <span class="nx">config</span> <span class="o">=</span> <span class="nx">_applyConfig</span><span class="p">(</span><span class="nx">acceptConfig</span><span class="p">);</span>
+            <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+                <span class="nx">config</span> <span class="o">=</span> <span class="nx">_defaultConfig</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="nx">frame</span> <span class="o">=</span> <span class="nx">_createFrame</span><span class="p">(</span><span class="nx">config</span><span class="p">);</span>
+            <span class="nx">node</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">frame</span><span class="p">);</span>
+            <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="p">};</span>
+<span class="p">}();</span>
+</pre></div>
