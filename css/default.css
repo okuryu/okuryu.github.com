@@ -75,8 +75,23 @@ body {
 .bd p {
   margin: 0 0 1.5em 0;
   line-height: 1.6;
-  text-align: justify;
-  text-justify: inter-ideograph;
+}
+
+.bd blockquote {
+  padding-left: 1em;
+  border-left: 3px double #999;
+  color: #667;
+}
+
+.bd pre {
+  margin: 0 0 1.5em 0;
+  padding: 1em;
+  border-left: 3px solid #CCC;
+  background-color: #EEE;
+}
+
+.bd pre code {
+  font-family: "Menlo", "Consolas", monospace;
 }
 
 .bd .date {
