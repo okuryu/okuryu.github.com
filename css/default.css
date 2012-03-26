@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  border-top: 6px solid #224;
+  border-top: 8px solid #224;
   color: #224;
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
@@ -38,7 +38,7 @@ body {
 
 .sign {
   font-family: "Muli", sans-serif;
-  font-size: 138.5%;
+  font-size: 146.5%;
   font-style: italic;
   font-weight: 300;
 }
@@ -61,7 +61,7 @@ body {
   margin: 0 0 0.2em 0;
   color: #446;
   font-family: "Muli", sans-serif;
-  font-size: 131%;
+  font-size: 146.5%;
   font-weight: 400;
 }
 
