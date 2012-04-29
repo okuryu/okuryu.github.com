@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HTML5 Boilerplate 3.0 in Japanese
+description: Translation into Japanese HTML5 Boilerplate.
 ---
 <img src="/img/20120218-jp.html5boilerplate.com.jpg" width="600" height="417" alt="">
 

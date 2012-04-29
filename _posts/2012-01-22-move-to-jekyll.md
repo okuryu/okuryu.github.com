@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Move to Jekyll
+description: Moving the system that using my blog from Movable Type to Jekyll.
 ---
 In the past, I have used static files by manual operations, or a CMS tools like Movable Type for
 manage web site. From now on, I had decided to use [Jekyll][jekyll]. Jekyll is simple tool to

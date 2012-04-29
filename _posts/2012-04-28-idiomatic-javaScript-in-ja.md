@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Idiomatic JavaScript in Japanese
+description: Translation into Japanese a document called Idiomatic JavaScript.
 ---
 
 Recently, I just [translated into Japanese][idiomatic-javascript-ja] a document
