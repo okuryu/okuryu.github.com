@@ -15,7 +15,7 @@
 {% include header.html %}
 <div class="bd">
 <h2>{{ page.title }}</h2>
-<p class="date">&mdash; {{ page.date | date: "%B %d, %Y" }}</p>
+<p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
 {{ content }}
 <div class="fb-like" data-href="http://www.okuryu.com{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="lucida grande"></div>
 <div><a href="https://twitter.com/share" class="twitter-share-button" data-via="okuryu">Tweet</a></div>
