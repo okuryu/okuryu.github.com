@@ -21,7 +21,7 @@ body {
 
 .nav li {
   float: left;
-  margin: 4px 0 0 8px;
+  margin: 6px 0 0 8px;
 }
 
 .nav a {
@@ -38,7 +38,7 @@ body {
 
 .sign {
   font-family: "Muli", sans-serif;
-  font-size: 146.5%;
+  font-size: 182%;
   font-style: italic;
   font-weight: 300;
 }
@@ -61,15 +61,14 @@ body {
   margin: 0 0 0.2em 0;
   color: #446;
   font-family: "Muli", sans-serif;
-  font-size: 146.5%;
+  font-size: 167%;
   font-weight: 400;
 }
 
 .bd h3 {
   margin: 0 0 0.5em 0;
   color: #446;
-  font-size: 116%;
-  font-weight: bold;
+  font-size: 138.5%;
 }
 
 .bd p {
