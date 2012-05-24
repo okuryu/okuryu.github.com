@@ -73,7 +73,7 @@ body {
 
 .bd p {
   margin: 0 0 1.5em 0;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .bd blockquote {
@@ -84,13 +84,20 @@ body {
 
 .bd pre {
   margin: 0 0 1.5em 0;
-  padding: 1em;
+  padding: 0.8em;
   border-left: 3px solid #CCC;
   background-color: #EEE;
 }
 
-.bd pre code {
+.bd code {
+  padding: 0.1em;
+  border: 1px solid #DDD;
   font-family: "Menlo", "Consolas", monospace;
+  background-color: #EEE;
+}
+
+.bd pre code {
+  border: 0;
 }
 
 .bd .date {
