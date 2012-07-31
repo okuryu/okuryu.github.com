@@ -87,6 +87,7 @@ body {
   padding: 0.8em;
   border-left: 3px solid #CCC;
   background-color: #EEE;
+  line-height: 1.6;
 }
 
 .bd code {
