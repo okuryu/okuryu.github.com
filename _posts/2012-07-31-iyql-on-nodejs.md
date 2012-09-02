@@ -13,13 +13,13 @@ Since I just published "iyql" npm module that has features similar to that
 one on npmjs.org. And, its open sourced on [my GitHub repository][node-iyql].
 Please read just below if you are familiar with Node.js.
 
-## Installation
+### Installation
 
 	$ npm install -g iyql
 
 Note: Currently, depend on Node.js 0.8.x.
 
-## Usage
+### Usage
 
 	$ iyql -h
 	Usage: iyql [options]
