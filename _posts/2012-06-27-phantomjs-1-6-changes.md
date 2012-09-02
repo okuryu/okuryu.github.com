@@ -8,7 +8,7 @@ Recently, PhantomJS 1.6 has released. PhantomJS has a flower name for each relea
 this version has "Lavender". This version is minor update, but it's has some new
 features in view of the release note, I tried a few points.
 
-## Support for passing arguments to WebPage's evaluate
+### Support for passing arguments to WebPage's evaluate
 
 You can now pass the variable to the callback function of page.evaluate.
 
@@ -21,7 +21,7 @@ You can now pass the variable to the callback function of page.evaluate.
 	
 	console.log(result);
 
-## Callbacks for JavaScript onConfirm and onPrompt
+### Callbacks for JavaScript onConfirm and onPrompt
 
 onConfirm, onPrompt of JavaScript callbacks has been added.
 
@@ -35,7 +35,7 @@ onConfirm, onPrompt of JavaScript callbacks has been added.
 	  return window.confirm('Hello Confirm!');
 	});
 
-## Support for Cookies handling
+### Support for Cookies handling
 
 Cookie data has been supported. Until now was not only pass in the options of
 the command of PhantomJS, but you can now be specified in the page object.
@@ -46,7 +46,7 @@ the command of PhantomJS, but you can now be specified in the page object.
 	  'domain': 'localhost'
 	}];
 
-## 'os' object to the system module
+### 'os' object to the system module
 
 The 'os' object has been added into system module.
 
@@ -62,7 +62,7 @@ The result is like this:
 	name: mac
 	version: 10.7 (Lion)
 
-## Support for asynchronous evaluation
+### Support for asynchronous evaluation
 
 You can now asynchronously evaluation of the page. This is useful if you don't
 need the results of evaluation.
