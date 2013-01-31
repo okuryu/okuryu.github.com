@@ -89,7 +89,6 @@ body {
   margin: 0 0 1.5em 0;
   padding: 0.8em;
   border-left: 3px solid #CCC;
-  font-size: 1.2rem;
   background-color: #EEE;
   line-height: 1.6;
   word-wrap: break-word;
@@ -99,7 +98,12 @@ body {
   padding: 0.1em;
   border: 1px solid #DDD;
   font-family: "Menlo", "Consolas", monospace;
+  font-size: 1.2rem;
   background-color: #EEE;
+}
+
+.bd pre code {
+  font-size: 1.0rem;
 }
 
 .bd pre code {
