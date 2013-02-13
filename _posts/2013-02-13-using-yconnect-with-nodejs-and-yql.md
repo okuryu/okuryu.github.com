@@ -12,7 +12,7 @@ client-side applications such as native applications and can support many
 cases of use. This time, I would like to introduce examples that uses
 [UserInfo API][userinfo-api], supplied by YConnect, from Node.js and YQL.
 
-## YConnect with Node.js
+### YConnect with Node.js
 
 First, with Node.js, I have created a npm package for YConnect. You can
 install the package via npm command.
@@ -55,7 +55,7 @@ The result just below.
 	  birthday: '1984',
 	  gender: 'male' }
 
-## YConnect with YQL
+### YConnect with YQL
 
 Next is YQL. In the same way, I have created a table for YConnect. YQL can be
 tested easily from the YQL Console too, but this time I will show an example
