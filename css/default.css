@@ -1,13 +1,11 @@
 html {
-  -ms-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
   font-size: 62.5%;
 }
 
 body {
   border-top: 12px solid #224;
   color: #224;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
 
@@ -28,8 +26,6 @@ body {
 
 .nav a {
   color: #224;
-  font-family: "Muli", sans-serif;
-  font-weight: 400;
   text-decoration: none;
 }
 
@@ -61,16 +57,15 @@ body {
 .bd h2 {
   margin: 0 0 0.2em 0;
   color: #224;
-  font-size: 2.2rem;
-  font-weight: 700;
+  font-size: 2.6rem;
+  font-weight: bold;
 }
 
 .bd h3 {
   margin: 0 0 0.5em 0;
-  padding: 0 0 0 6px;
-  border-left: 3px solid #224;
+  border-bottom: 1px solid #CCC;
   color: #224;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .bd p {
@@ -84,35 +79,29 @@ body {
   color: #667;
 }
 
+.bd pre,
+.bd code {
+  font-family: Courier, Consolas, monospace;
+  background-color: #EEE;
+}
+
 .bd pre {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1.8em 0;
   padding: 0.8em;
   border-left: 3px solid #CCC;
-  background-color: #EEE;
+  font-size: 1.3rem;
   line-height: 1.6;
   word-wrap: break-word;
 }
 
 .bd code {
-  padding: 0.1em;
-  border: 1px solid #DDD;
-  font-family: "Menlo", "Consolas", monospace;
-  font-size: 1.3rem;
-  background-color: #EEE;
-}
-
-.bd pre code {
-  font-size: 1.0rem;
-}
-
-.bd pre code {
-  border: 0;
+  padding: 0 0.2em;
 }
 
 .bd .date {
   margin: 0 0 1.5em 0;
   color: #668;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .bd ul {
