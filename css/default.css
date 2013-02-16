@@ -7,12 +7,12 @@ html {
 body {
   border-top: 12px solid #224;
   color: #224;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 }
 
 .hd {
-  width: 600px;
+  width: 640px;
   margin: 50px auto;
 }
 
@@ -29,7 +29,6 @@ body {
 .nav a {
   color: #224;
   font-family: "Muli", sans-serif;
-  font-size: 1.6rem;
   font-weight: 400;
   text-decoration: none;
 }
@@ -55,7 +54,7 @@ body {
 }
 
 .bd {
-  width: 600px;
+  width: 640px;
   margin: 0 auto;
 }
 
@@ -71,7 +70,7 @@ body {
   padding: 0 0 0 6px;
   border-left: 3px solid #224;
   color: #224;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .bd p {
@@ -98,7 +97,7 @@ body {
   padding: 0.1em;
   border: 1px solid #DDD;
   font-family: "Menlo", "Consolas", monospace;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   background-color: #EEE;
 }
 
@@ -127,7 +126,7 @@ body {
 }
 
 .ft {
-  width: 600px;
+  width: 640px;
   margin: 0 auto;
   padding: 10px 0;
   border-top: 1px solid #DDD;
@@ -137,7 +136,7 @@ body {
 .ft p {
   margin: 0 0 8px 0;
   line-height: 1.5;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .ft a {
@@ -150,8 +149,4 @@ body {
 
 .twitter-share-button {
   margin: 0 0 30px 0;
-}
-
-@media only screen and (max-device-width: 480px) {
-  html { font-size: 110%; }
 }
