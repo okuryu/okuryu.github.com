@@ -65,7 +65,7 @@ body {
   margin: 0 0 0.5em 0;
   border-bottom: 1px solid #CCC;
   color: #224;
-  font-size: 2.2rem;
+  font-size: 2.0rem;
 }
 
 .bd p {
@@ -112,6 +112,20 @@ body {
 
 .bd li {
   list-style-type: disc;
+}
+
+.bd .posts {
+  list-style-type: none;
+  margin: 0;
+}
+
+.bd .posts li {
+  list-style-type: none;
+}
+
+.bd .archives {
+  font-size: 1.3rem;
+  text-align: right;
 }
 
 .ft {
