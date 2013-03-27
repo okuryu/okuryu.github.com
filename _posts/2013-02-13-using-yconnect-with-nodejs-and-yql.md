@@ -21,18 +21,20 @@ install the package via npm command.
 
 By passing the access token to access the API, you can retrieve the data.
 
-	var YConnect = require('yconnect').YConnect;
-	var yc = new YConnect({
-	    access_token: '<access token>'
-	});
-	
-	yc.getUserInfo({schema: 'openid'}, function (error, data) {
-	    if (!error) {
-	        console.log(JSON.parse(data));
-	    } else {
-	        console.log(error);
-	    }
-	});
+{% highlight javascript %}
+var YConnect = require('yconnect').YConnect;
+var yc = new YConnect({
+    access_token: '<access token>'
+});
+
+yc.getUserInfo({schema: 'openid'}, function (error, data) {
+    if (!error) {
+        console.log(JSON.parse(data));
+    } else {
+        console.log(error);
+    }
+});
+{% endhighlight %}
 
 The result just below.
 
