@@ -5,7 +5,7 @@ html {
 body {
   border-top: 12px solid #224;
   color: #224;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
 
@@ -57,15 +57,14 @@ body {
 .bd h2 {
   margin: 0 0 0.2em 0;
   color: #224;
-  font-size: 2.6rem;
-  font-weight: bold;
+  font-size: 2.1rem;
 }
 
 .bd h3 {
   margin: 0 0 0.5em 0;
   border-bottom: 1px solid #CCC;
   color: #224;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
 }
 
 .bd p {
