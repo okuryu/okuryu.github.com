@@ -14,8 +14,8 @@ QUnit were used together.
 <img src="/img/saucelabs-yui.png" alt="">
 
 On top of JavaScript testing, we can't forget the devices and browsers on
-which the testing is being done in the first place. With the spread of so many
-different types of mobile devices and so many OSes and browsers in
+which the testing is being done in the first place. With the spread of so
+many different types of mobile devices and so many OSes and browsers in
 development, it's become important to carry out tests on the actual browsers.
 In these conditions, services have appeared that allow you to open and operate
 the actual browsers online. Today, I'd like to show you a test using one of
@@ -30,8 +30,8 @@ account. Sauce Labs provides some free and paid plans. Also there is
 "Open Sauce" plan, this is very kind and helping plan for OSS developers like
 you.
 
-Sign up when you're done, let's prepare for the testing environment. Check your
-access key and download `Sauce-Connect.jar` file from
+Sign up when you're done, let's prepare for the testing environment.
+Check your access key and download `Sauce-Connect.jar` file from
 [Sauce Connect guide][sauce-connect].
 
 Start Sauce Connect:
