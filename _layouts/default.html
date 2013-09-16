@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 {% include meta.html %}
 {% include link.html %}
+{% include typekit.html %}
 <title>{{ page.title }}</title>
 </head>
 <body>
 {% include header.html %}
-<div class="bd">
+<div id="content" role="main">
 {{ content }}
 </div>
 {% include footer.html %}
