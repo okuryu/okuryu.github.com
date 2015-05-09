@@ -24,7 +24,7 @@ Also I'm usually using "okuryu" as username, so you can find me elsewhere.
 - [Facebook] &mdash; Face to face.
 - [Twitter] &mdash; Frivolous activity.
 
-[Flickr]: http://www.flickr.com/photos/okuryu/
+[Flickr]: https://www.flickr.com/photos/okuryu/
 [YUI]: http://yuilibrary.com/
 [YUI Committer]: https://github.com/yui/yui3/wiki/Contributor-Model#23-committers
 [GitHub]: https://github.com/okuryu
