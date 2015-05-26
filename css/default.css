@@ -118,7 +118,9 @@ header li a:hover {
 }
 
 footer {
+    padding-top: 0.5em;
     padding-bottom: 1em;
+    border-top: 1px solid #EEE;
 }
 
 footer address {
