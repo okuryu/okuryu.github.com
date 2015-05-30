@@ -20,7 +20,7 @@ Please e-mail to okuryu [at] okuryu.com if you wish contact to me.
 Also I'm usually using "okuryu" as username, so you can find me elsewhere.
 
 - [Flickr] &mdash; Photo is.
-- [GitHub] &mdash; Contribute the internet.
+- [GitHub] &mdash; Contribute to the Web.
 - [Facebook] &mdash; Face to face.
 - [Twitter] &mdash; Frivolous activity.
 
