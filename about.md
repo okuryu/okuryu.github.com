@@ -6,12 +6,13 @@ title: About me &mdash; Ryuichi Okumura
 
 <img src="http://farm3.static.flickr.com/2694/4365409418_370faa5929_m.jpg" width="240" height="180">
 
-My name is Ryuichi Okumura. I'm a programmer in Tokyo, Japan. For many years,
-I'm having a passion for art and Web technologies. Since about 2000, started to
-taking photos and learn art, design. Photo is part of my life as it's now, so
-some photos can be viewed at [Flickr]. At the same time, I've been learn
-Web technologies. Of special interest is the JavaScript world, so I've been
-worked to contribute to [YUI] since about 2011, and promoted to [YUI Committer]
+My name is Ryuichi Okumura, software engineer in Japan.
+
+I've been started to taking photos from around 2000, and learned art and design.
+Photo is part of my life as it's now, so some photos can be viewed at [Flickr].
+
+At the same time, I've been learned web technologies. Of special interest is the
+JavaScript world, so I've been contribute to [YUI] since about 2011, and promoted to [YUI Committer]
 in 2013. Codes that I wrote is viewed on [GitHub]. I'm currently working for
 [Yahoo! JAPAN] since 2007.
 
