@@ -16,7 +16,7 @@ At the same time, I've been learned web technologies. Of special interest is the
 JavaScript world, so I've been contribute to [YUI] since about 2011, and promoted
 to [YUI Committer] in 2013. Codes that I wrote is viewed on [GitHub].
 
-Please e-mail to okuryu@okuryu.com if you wish contact to me.
+Please e-mail to <a href="mailto:okuryu@okuryu.com">okuryu@okuryu.com</a> if you wish contact to me.
 
 Also I'm usually using "okuryu" as username, so you can find me elsewhere.
 
