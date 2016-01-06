@@ -14,7 +14,7 @@ can be viewed at [Flickr].
 
 At the same time, I've been learned web technologies. Of special interest is the
 JavaScript world, so I've been contribute to [YUI] since about 2011, and promoted
-to [YUI Committer] in 2013. And I've promoted a maintainer on YUIDoc since 2014.
+to [YUI Committer] in 2013. And I've promoted a maintainer on [YUIDoc] since 2014.
 Codes that I wrote is viewed on [GitHub].
 
 Please e-mail to <a href="mailto:okuryu@okuryu.com">okuryu@okuryu.com</a> if you wish contact to me.
@@ -29,6 +29,7 @@ Also I'm usually using "okuryu" as username, so you can find me elsewhere.
 [Flickr]: https://www.flickr.com/photos/okuryu/
 [YUI]: http://yuilibrary.com/
 [YUI Committer]: https://github.com/yui/yui3/wiki/Contributor-Model#23-committers
+[YUIDoc]: https://github.com/yui/yuidoc
 [GitHub]: https://github.com/okuryu
 [Facebook]: https://www.facebook.com/okuryu
 [Twitter]: https://twitter.com/okuryu
