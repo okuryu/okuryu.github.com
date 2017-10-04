@@ -1,7 +1,7 @@
 www.okuryu.com
 ==============
 
-All things [http://www.okuryu.com/](http://www.okuryu.com/).
+All things [https://www.okuryu.com/](https://www.okuryu.com/).
 
 License
 -------
